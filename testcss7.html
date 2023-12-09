@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .username:hover{
+            background-color: yellow;
+        }
+        .pass:hover{
+            background-color: pink;
+        }
+        .redgrp:active:hover{
+            color:red;
+            transition : color 0.15s;
+        }
+        .blue:hover{
+            background-color: aqua;
+            color:black;
+            transition: background-color 0.15s;
+        }
+    </style>
+</head>
+<body>
+   
+        <form>
+            <fieldset>
+                <legend>SIGN UP</legend>
+                
+                    
+                    <label name="name" >Username :</label>
+                    <input class="username" type="text" placeholder="enter name" maxlength="20"/><br><br>
+                    <label name="pass" >Password :</label>
+                    <input class="pass" type="text" placeholder="enter password" minlength="6"/><br>
+                    <label name="sports">SPORTS :</label>
+                    <select name="sports" class="redgrp">
+                        
+                        <option  selected disabled hidden >CHOOSE</option>
+                        <option value="cricket">Cricket</option>
+                        <option value="hockey">Hockey</option>
+                        <option value="badminton">Badminton</option>
+                        <option value="tennis">Tennis</option>
+
+                    </select><br>
+                    <label name="gender" >
+                        Gender :
+                    </label>
+                    <input type="radio" name="xz" class="redgrp"/>Male<input type="radio" name="xz" class="redgrp"/>Female<br>
+                    <input type="button" name="submit" value="submit" class="blue"></input>
+                    <input type="button" name="reset" value="reset" class="blue"></input>
+
+                   
+                    
+                
+   
+            </fieldset>
+        
+
+        </form>
+</body>
+</html>

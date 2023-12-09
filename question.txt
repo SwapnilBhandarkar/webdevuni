@@ -1,0 +1,14 @@
+1. heading should have normal font style and size should be 120%
+2. define a class areial for paragraph with aerial phase and bold text and 3 cm spacing for paragraph initialisation
+3. apply a background image hello.jpg and it should be repeated vertically only
+
+
+
+
+
+q2
+1. write html and css script to design a sign up form having feilds like username pass choice of sports like cricket hockey badminton and tennis include gender fields male and female
+submit and reset button
+2.while hovering username and password its background should turn yellow and pink color respectively
+2.2 while clicking on sports and gender field text should be in red color
+2.3 both submit and reset button text shuld turn blue while hovering
