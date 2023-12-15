@@ -12,3 +12,19 @@ submit and reset button
 2.while hovering username and password its background should turn yellow and pink color respectively
 2.2 while clicking on sports and gender field text should be in red color
 2.3 both submit and reset button text shuld turn blue while hovering
+
+
+q3
+to display two sections of 40 width
+using div tag
+both these sections are having title and description
+both these div tags should be horizontal adjacent to each other
+
+
+q4
+display two tables of 50%
+having c6 and r6 \
+this two tables must be adjacent to each other horizontally
+make responsive web page iitially first table should have blue color and second have 
+
+

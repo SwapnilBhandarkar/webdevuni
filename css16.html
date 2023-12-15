@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes colorchange{
+            0% {background-color: red;left:0px;top:0px;}
+            25% {background-color: yellow; top:0px;left:500px;}
+            50%{background-color: green;left:500px;top:500px;}
+            75%{background-color: blue;left:0px;top:500px;}
+            100%{background-color: yellow;top:0px;left:0px;}
+        }
+           
+        
+        
+        
+        div{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            position: relative;
+            border-radius: 50%;
+            
+            animation-name: colorchange;
+            animation-duration: 1s;
+            animation-delay: 0.15s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            
+        }
+        
+        div:hover{
+            left:500px;
+            animation-name: move;
+            animation-duration: 1s;
+            animation-delay: 0.15s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
