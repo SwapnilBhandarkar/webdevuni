@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .expand{
+          
+            transition: width 4s 2s;
+            /* transition-delay: 2s; */
+        }
+        input:hover{
+            width:20%;
+
+        }
+        fieldset{
+            background-color: lightcoral;
+        }
+        input{
+            height:10%;
+            width:10%;
+            transition: height,width;
+            transition-duration: 4s;
+            transition-delay: 2s;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>login page</legend>
+            <label>username </label>
+            <input name="username" type="text" placeholder="enter your name" class="expand"/><br>
+            <label>password </label>
+            <input name="pass" type="text" placeholder="enter password" class="expand"/><br>
+            <input type="submit" class="expand"/>
+            <input type="reset"class="expand"/>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
