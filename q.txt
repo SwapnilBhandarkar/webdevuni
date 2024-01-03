@@ -1,0 +1,6 @@
+write html css and bootstrap  program to take 4 sec using div tag take width of all div as 20% 
+1. first div has text related components like paragraph,abbr,and pre tag
+2. second div has a table having 3 row first row is lower case second row uppercase and third row capitalize
+3. third div has simple text in justified manner 
+4. fourth div has a blockquote 
+ 
