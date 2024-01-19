@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae labore dolor corporis quis sequi nostrum molestias debitis illo tempore! Voluptatum sint pariatur iure repellat porro fugiat enim facilis nobis! Consequuntur neque ut autem explicabo alias consequatur nisi beatae aperiam excepturi voluptas sed repellendus, ea illum blanditiis iusto. Aspernatur voluptatibus quasi maiores modi nesciunt voluptates culpa facilis corrupti itaque pariatur sequi doloremque porro, nam, necessitatibus laudantium debitis. Similique eveniet magni, officia tenetur rerum quas magnam necessitatibus quam corporis deleniti excepturi nisi expedita a corrupti aperiam laudantium obcaecati ea voluptates repellat perspiciatis velit! Laudantium saepe tenetur dolor. Accusamus aliquam dolorum non?</p>
+    <div class="form-switch form-check "  >
+        <input type="checkbox" class="form-check-input " onclick="myFunction()" placeholder=""  >
+        <label class="form-check-label">Dark/Ligth</label>
+    </div>
+    <button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
