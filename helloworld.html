@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+        function addition(a,b){
+            return a+b;
+        }
+        function product(a,b){
+            return a*b;
+        }
+        function prog1(a){
+            var x =0
+            sum = 0
+            while (a>0)
+            {
+                x=parseInt(a%10)
+                sum = sum+x
+                a = parseInt(a/10)
+                
+            }
+            if (sum>=10){
+                prog1(sum)
+            }
+            else{
+                if (sum==1){
+                    document.write("lucky num")
+                }
+                else{
+                    document.write("Unlucky num")
+
+                }
+            }
+        }
+
+        // write a prog if the number is lucky no. or not
+
+    </script>
+</head>
+<body>
+    <script>
+        document.write("Sum is : "+addition(5,6)+"<br>");
+        document.write("product is : "+product(5,6)+"<br>");
+        // write js prog. in which take two digit num staticallly and seperate this this two digit then multiply first digit by itself for second digit times
+        prog1(1000);
+    </script>
+</body>
+</html> 
